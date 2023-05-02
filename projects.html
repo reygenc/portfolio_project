@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <style>
+      body {
+        /* <!-- Photo by Philippe Donn: https://www.pexels.com/photo/milky-way-illustration-1169754/ --> */
+        background-image: url("space_background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <title>Reygen Projects</title>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="bio.html">Bio</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="card-container">
+      <div class="card mx-3" style="height: 80vh; width: auto">
+        <img style="height: 80%; width: auto" src="eyes.jpg" />
+        <div class="card-body">
+          <h5 class="card-title">Eyes</h5>
+          <p class="card-text">
+            The Eyes link opens a page to a pair of "eyes". These "eyes" were
+            configured to follow and track the mouse position. As you move your
+            mouse, the pupils will follow. Enjoy!
+          </p>
+          <a href="https://github.com/reygenc/eyes.git" target="_blank"
+            ><button type="button" class="btn btn-primary">
+              GitHub Repo
+            </button></a
+          >
+          <a href="https://reygenc.github.io/eyes/" target="_blank"
+            ><button type="button" class="btn btn-primary">Eyes</button></a
+          >
+        </div>
+      </div>
+      <div class="card mx-md-3" style="height: 80vh; width: auto">
+        <img style="height: 80%; width: auto" src="pacMan.jpg" />
+        <div class="card-body">
+          <h5 class="card-title">PacMan Factory</h5>
+          <p class="card-text">
+            The PacMen link will open to a page where there are two buttons. Clicking on "Add PacMan" will create a PacMan in a random position on the screen. The "Start Game" button will make those PacMen move.
+          </p>
+          <a href="https://github.com/reygenc/pacmen.git" target="_blank"
+            ><button type="button" class="btn btn-primary">
+              GitHub Repo
+            </button></a
+          >
+          <a href="https://reygenc.github.io/pacmen/" target="_blank"
+            ><button type="button" class="btn btn-primary">PacMen</button></a
+          >
+        </div>
+      </div>
+      <div class="card mx-3" style="height: 80vh; width: auto">
+        <img style="height: 80%; width: auto" src="busTracker.png" />
+        <div class="card-body">
+          <h5 class="card-title">Bus Tracker</h5>
+          <p class="card-text">
+            When you click on the "Track Bus" link, it will open a page with a map in the vicinity of MIT. Click on the "Show Live Bus" button at the top and it will track Massachusetts Bay Transit Authority (MBTA) bus number 1. Every five seconds the bus position is updated and will show on the map.
+          </p>
+          <a href="https://github.com/reygenc/busTracker.git" target="_blank"
+            ><button type="button" class="btn btn-primary">
+              GitHub Repo
+            </button></a
+          >
+          <a href="https://reygenc.github.io/busTracker/" target="_blank"
+            ><button type="button" class="btn btn-primary">Track Bus</button></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
